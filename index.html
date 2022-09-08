@@ -1,0 +1,167 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="hdfc.css">
+    <script src="/home.js">Javascript</script>
+
+</head>
+<!-- <script>
+    // const changeMode = () => {
+    //     let mybody = document.body;
+    //     // mybody.classList.add('mydark')
+    //     mybody.classList.toggle('mydark')
+    // }
+
+    
+
+</script> -->
+
+<!-- Javascript Event Used for toggle -->
+
+<body>
+    <!-- <body class="mydark">
+    <p>Click on home button for login
+        <i class="glyphicon glyphicon-home" onclick="changeMode()">Click For Login Page</i>
+        <i class="glyphicon glyphicon-home" onclick="changeMode()">Click For Login Page</i>
+
+
+    </p> -->
+    <!-- <i class="glyphicon glyphicon-home"onclick="changeMode()">Click For Login Page</i> -->
+    <!-- <i class="glyphicon glyphicon-user"onclick="changeMode()">click me</i> -->
+    <!-- <i class="glyphicon glyphicon-star"onclick="changeMode()">button</i> -->
+    <!-- <i class="glyphicon glyphicon-user"onclick="changeMode()">click me</i> -->
+
+    <!-- For Header Section -->
+    <div class="jumbotron">
+        <center>
+            <h3>Welcome to HDFC Bank NetBanking</h3>
+            <img src="https://netbanking.hdfcbank.com/netbanking/gif/logo.png" class="width100" alt="" />
+        </center>
+        <!-- <div>
+            <button onclick="getLocation()">Geolocation</button>
+            <p id="out"></p>
+            <p id="loaction"></p>
+            <p id="weather"></p>
+
+        </div> -->
+        
+       <div>
+        <a href="/location.html" target="_blank">Click For Location</a>
+     
+    </div>
+
+    <!-- For Body Section -->
+
+
+    <div class="jumbotron container">
+
+
+        <h2>Login to NetBanking</h2>
+        <div class="form-group row">
+            <div class="col-xs-4">
+                <label for="email">Customer ID/ User ID:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your Customer ID/ User ID "
+                    name="CUST ID">
+                <div id="coupon">
+                    <button onclick="closeCoupon()" style="float: right;">&times;</button>
+                    <h2>Let's open Account with HDFC Bank </h2>
+                    <span>With minimum documentaion and you can complete it by 3 steps</span>
+                    <li>
+                        <b>
+                            <ol>Step=1.Register with Mobile No</ol>
+                            <ol>Step=2.Upload your KYC DOcuments</ol>
+                            <ol>Step=3.Complete your Video KYC</ol>
+                        </b>
+                    </li>
+                    <span>Your Account is Ready with HDFC Bank</span>
+
+                    <img src="https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/6f104840-9b17-4c10-aba5-f85ec59f3534/Common/DAP/Adobe%20Forms/2022/May-2022/960x150-InstaSA-Acq-27May.jpg"
+                        alt="Account">
+                    <h2 style="color: blue;"> We are happy that you are part of India's NO.1 Bank </h2>
+
+                </div>
+
+                <!-- <button type="submit" class="btn btn-primary" href="/New folder/login.html">Continue</button> -->
+                <!-- <a href="./New folder/login.html" class="text-white">Continue> </a> -->
+                <!-- <button type="button" class="btn btn-primary"> -->
+                <a href="/LOGIN/login.html">
+                    <input type="submit" class="btn btn-primary" value="continue">
+
+                </a>
+
+                <!-- </button> -->
+                <div style="background-color:#e2effa;padding:10px 15px;">Dear Customer,<br /> Welcome to the new login
+                    page of HDFC Bank NetBanking. <br /> Its lighter look and feel is designed to give you the best
+                    possible user experience. Please continue to login using your customer ID and password.</div>
+                <div class="container">
+                    <div>Don't have a HDFC Bank Savings Account?</div>
+
+                    <span>Credit Card only? Login here</span>
+
+                    <div>
+                        <span>Prepaid Card only ? Login here
+                            Retail Loan only? Login here</span>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="jumbotron text-center">
+                <div><img src="https://netbanking.hdfcbank.com/netbanking/gif/nortonsecurity.png" alt="" />
+                    <div><span class="color666">Your security is of utmost
+                            importance.</span>
+                        <div>
+
+                        </div>
+
+
+                        <div>
+                            <div></br><span>First Time User?</span></br>
+                                <span>Register Now </a>
+                                    for a host of convenient features</span>
+                            </div>
+                            <div>We have added a host of new features!</div>
+                            <div>
+                                <span>You can now do so much
+                                    more:</span>
+                            </div>
+                            <div>
+                                <span>
+                                    <ul>
+                                        Anywhere access through Desktop or mobile
+                                        <span>Enhanced security measures</span>
+                                    </ul>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- For Footer Section -->
+    <footer class="container-fluid">
+        <h3>&copy; Copyright HDFC Bank Ltd.</h3>
+        <!-- <div>Terms and Conditions</div> -->
+        <span>
+            <ul>
+                <li>Terms and Conditions</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </span>
+
+
+    </footer>
+    <script>
+        window.onload = loanCoupon()
+    </script>
+
+</body>
+
+</html>
